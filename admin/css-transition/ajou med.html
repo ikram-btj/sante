@@ -1,0 +1,117 @@
+
+<HTML>
+<HEAD>
+<body bgcolor="gray")>
+
+<style type="text/css">
+
+
+
+form { width: 350px; margin:0 auto 0 auto;   }
+label { display:block; margin:0.3em 0 0.3em 2em; font-family:times, Helvetica, sans-serif; color:#000000; font-size:1.1em;    }
+input { width:250px; margin: 0 0 0 2em;  }
+    
+/*texteare kima l input */
+
+fieldset { border:none; width:700px ;background:#ffffff ;padding: 2em 0 2em 0;  margin:2em auto 0 auto;  }
+field.first {background:#FFF2F2; }
+.LabelOne {margin-top:1em;   }
+.btn {  width:200px; margin: 2 2 2 2em; background:#FFD6D6 ;font-family: Arial, Helvetica, sans-serif; color:#555555; font-weight:bold;  }
+form h4 { margin:1em 0 1.5em 2em; font-size;1.2em; font-size:1.2em; font-family:Arial, Helvetica, sans-serif; color:#CDCDCD; font-weight:bold;    }
+.btn1 {  width:100px; margin: 0 0 0 2em; background:# ;font-family: Arial, Helvetica, sans-serif; color:#000000; font-weight:bold;  }
+</style>
+
+
+
+
+</style>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+ 
+<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/themes/base/jquery-ui.css" type="text/css" media="all" />
+<link rel="stylesheet" href="http://static.jquery.com/ui/css/demo-docs-theme/ui.theme.css" type="text/css" media="all" />
+ 
+       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" type="text/javascript"></script>
+       
+	   <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js" type="text/javascript"></script>
+
+
+
+	   
+
+<TITLE> Nouveau Medecin </TITLE>
+</HEAD>
+
+<BODY >
+<div id="formWrapper2">
+     <fieldset class="first">
+<meta charset="utf-8">
+
+<meta charset="utf-8">
+<table width="100%" type="center" border="0">
+
+<form method="post" action="ajouter_medecin.php">
+
+<label class="text" for="nom_m">Nom :</label>
+<input class="btn" type="text" id="nom_m" name="nom_m" maxlength="50" size="20">
+
+<label class="text" for="sex_m">Sex :</label>
+<div align="left">
+<input class="btn" type="radio" name="sex_m" value="Femme" checked>Femme<br>
+<input class="btn" type="radio" name="sex_m" value="Homme" checked>Homme<br>
+</div>
+
+<label class="text" for="adresse_m">Adresse :</label>
+<textarea class="btn" name="adresse_m" rows="1" cols="28" maxlength="100"></textarea>
+
+<label class="text" for="telephone_m">Telephone :</label>
+<input class="btn" type="tel" pattern="[0-9]{10}" name="telephone_m" title="Phone Number?!?!" maxlength="25" size="11"/>
+
+<label class="text" for="specialite">Specialite :</label>
+<input class="btn" type="text" name="specialite" maxlength="40" size="16">
+
+
+<label class="text" for="mail">mail :</label>
+<input class="btn" type="text" name="mail" maxlength="40" size="16">
+</td>
+
+
+
+ 	</fieldset>
+</div>
+
+
+</tr>
+<br>
+<br><br>
+
+<input class="btn" type="text" name="login_m" size="15" maxlength="25" placeholder="login_m"><br><br>
+
+<input class="btn" type="text" name="password_m" size="8" maxlength="4" placeholder="password_m"></td></tr>
+
+
+
+
+
+
+
+
+</td>
+</tr>
+</table>
+
+<br><br><input class="btn1" type="submit" value="Envoyer" name="submit">
+
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

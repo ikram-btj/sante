@@ -1,0 +1,270 @@
+
+<HTML>
+<HEAD>
+<body bgcolor="gray")>
+
+<style type="text/css">
+
+
+
+form { width: 350px; margin:0 auto 0 auto;   }
+label { display:block; margin:0.3em 0 0.3em 2em; font-family:times, Helvetica, sans-serif; color:#000000; font-size:1.1em;    }
+input { width:250px; margin: 0 0 0 2em;  }
+    
+/*texteare kima l input */
+
+fieldset { border:none; width:700px ;background:#ffffff ;padding: 2em 0 2em 0;  margin:2em auto 0 auto;  }
+field.first {background:#FFF2F2; }
+.LabelOne {margin-top:1em;   }
+.btn {  width:200px; margin: 2 2 2 2em; background:#FFD6D6 ;font-family: Arial, Helvetica, sans-serif; color:#555555; font-weight:bold;  }
+form h4 { margin:1em 0 1.5em 2em; font-size;1.2em; font-size:1.2em; font-family:Arial, Helvetica, sans-serif; color:#CDCDCD; font-weight:bold;    }
+.btn1 {  width:100px; margin: 0 0 0 2em; background:# ;font-family: Arial, Helvetica, sans-serif; color:#000000; font-weight:bold;  }
+</style>
+
+
+
+
+</style>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+ 
+<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/themes/base/jquery-ui.css" type="text/css" media="all" />
+<link rel="stylesheet" href="http://static.jquery.com/ui/css/demo-docs-theme/ui.theme.css" type="text/css" media="all" />
+ 
+       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" type="text/javascript"></script>
+       
+	   <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js" type="text/javascript"></script>
+
+
+
+
+<TITLE> Nouveau Patient </TITLE>
+</HEAD>
+
+<BODY >
+<div id="formWrapper2">
+     <fieldset class="first">
+<meta charset="utf-8">
+
+
+
+
+<meta charset="utf-8">
+<table width="100%" type="center" border="0">
+
+<form method="post" action="ajouter-patient.php">
+<tr>
+
+
+<label class="text" for="nom">Nom :</label>
+<input class="btn" type="text" id="nom" name="nom" maxlength="50" size="20">
+<label class="text" for="prenom">Prenom :</label>
+<input class="btn" type="text" name="prenom" maxlength="50" size="18">
+<label class="text" for="date_n">Date de naissance :</label>
+<input class="btn" id="dattepicker" name="date_n" type="date" size="9" />
+		
+<div class="demo">
+<label  class="text" for="lieu_n" >Lieu de naissance:</label>
+<select name="lieu_n" class="btn">
+<option value="Choisissez votre ville" selected></option> 
+	<option value="Adrar">adrar</option>
+	<option value="Chlef">Chlef</option>
+	<option value="Laghouat">Laghouat</option>
+	<option value="Oum El Bouaghi">Oum El Bouaghi</option>
+	<option value="Batna">Batna</option>
+	<option value="Béjaia">Béjaia</option>
+	<option value="Biskra">Biskra</option>
+	<option value="Béchar">Béchar</option>
+	<option value="Blida">Blida</option>
+	<option value="Bouira">Bouira</option>
+	<option value="Tamanrasset">Tamanrasset</option>
+	<option value="Tébessa">Tébessa</option>
+	<option value="Tlemcen">Tlemcen</option>
+	<option value="Tiaret">Tiaret</option>
+	<option value="Tizi Ouzou">Tizi Ouzou</option>
+	<option value="Alger">Alger</option>
+	<option value="Djelfa">Djelfa</option>
+	<option value="Djijel">Djijel</option>
+	<option value="Sétif">Sétif</option>
+	<option value="Saida">saida</option>
+	<option value="Skikda">skikda</option>
+	<option value="Sidi Bel Abbes">sidi bel abbes</option>
+	<option value="Annaba">Annaba</option>
+	<option value="Guelma">Guelma</option>
+	<option value="Constantine">Constantine</option>
+	<option value="Médéa">Médéa</option>
+	<option value="Mostaganem">Mostaganem</option>
+	<option value="M'Sila">M'sila</option>
+	<option value="Mascara">Mascara</option>
+	<option value="Ouargla">Ouargla</option>
+	<option value="Oran">Oran</option>
+	<option value="El Bayadh">El Bayadh</option>
+	<option value="Illizi">Illizi</option>
+	<option value="Bordj Bou Arreridj">Bordj Bou Arreridj</option>
+	<option value="Boumerdes">Boumerdes</option>
+	<option value="El Tarf">El Tarf</option>
+	<option value="Tindouf">Tindouf</option>
+	<option value="Tissemssilt">Tissemssilt</option>
+	<option value="El Oued">El Oued</option>
+	<option value="Khenchela">Khenchela</option>
+	<option value="Souk Ahras">Souk ahras</option>
+	<option value="Tipaza">Tipaza</option>
+	<option value="Mila">Mila</option>
+	<option value="Ain Defla">Ain defla</option>
+	<option value="Naama">Naama</option>
+	<option value="Ain Temouchent">Ain temouchent</option>
+	<option value="Ghardaia">Ghardaia</option>
+	<option value="Relizane">Relizane</option>
+	</select>
+
+
+
+
+<label class="text" for="sex">Sex :</label>
+<div align="left">
+<input class="btn" type="radio" name="sex" value="Famme" checked>Famme<br>
+<input class="btn" type="radio" name="sex" value="Homme" checked>Homme<br>
+</div>
+
+
+<div class="demo">
+<label  class="text" for="ville" >Votre Ville actuelle :</label>
+<select name="ville" class="btn">
+<option value="Choisissez votre ville" selected> Choisisez votre ville</option> 
+	<option value="Adrar">adrar</option>
+	<option value="Chlef">Chlef</option>
+	<option value="Laghouat">Laghouat</option>
+	<option value="Oum El Bouaghi">Oum El Bouaghi</option>
+	<option value="Batna">Batna</option>
+	<option value="Béjaia">Béjaia</option>
+	<option value="Biskra">Biskra</option>
+	<option value="Béchar">Béchar</option>
+	<option value="Blida">Blida</option>
+	<option value="Bouira">Bouira</option>
+	<option value="Tamanrasset">Tamanrasset</option>
+	<option value="Tébessa">Tébessa</option>
+	<option value="Tlemcen">Tlemcen</option>
+	<option value="Tiaret">Tiaret</option>
+	<option value="Tizi Ouzou">Tizi Ouzou</option>
+	<option value="Alger">Alger</option>
+	<option value="Djelfa">Djelfa</option>
+	<option value="Djijel">Djijel</option>
+	<option value="Sétif">Sétif</option>
+	<option value="Saida">saida</option>
+	<option value="Skikda">skikda</option>
+	<option value="Sidi Bel Abbes">sidi bel abbes</option>
+	<option value="Annaba">Annaba</option>
+	<option value="Guelma">Guelma</option>
+	<option value="Constantine">Constantine</option>
+	<option value="Médéa">Médéa</option>
+	<option value="Mostaganem">Mostaganem</option>
+	<option value="M'Sila">M'sila</option>
+	<option value="Mascara">Mascara</option>
+	<option value="Ouargla">Ouargla</option>
+	<option value="Oran">Oran</option>
+	<option value="El Bayadh">El Bayadh</option>
+	<option value="Illizi">Illizi</option>
+	<option value="Bordj Bou Arreridj">Bordj Bou Arreridj</option>
+	<option value="Boumerdes">Boumerdes</option>
+	<option value="El Tarf">El Tarf</option>
+	<option value="Tindouf">Tindouf</option>
+	<option value="Tissemssilt">Tissemssilt</option>
+	<option value="El Oued">El Oued</option>
+	<option value="Khenchela">Khenchela</option>
+	<option value="Souk Ahras">Souk ahras</option>
+	<option value="Tipaza">Tipaza</option>
+	<option value="Mila">Mila</option>
+	<option value="Ain Defla">Ain defla</option>
+	<option value="Naama">Naama</option>
+	<option value="Ain Temouchent">Ain temouchent</option>
+	<option value="Ghardaia">Ghardaia</option>
+	<option value="Relizane">Relizane</option>
+	</select>
+
+
+<label class="text" for="adresse">Adresse :</label>
+<textarea class="btn" name="adresse" rows="1" cols="28" maxlength="100"></textarea>
+
+
+<label class="text" for="groupage">Groupe Sanguin:</label>
+<input class="btn" type="text" name="groupage" maxlength="40" size="16">
+
+
+		
+
+<label class="text" for="tel">N d'Telephone :</label>
+<input class="btn" type="tel" pattern="[0-9]{10}" name="tel" title="Phone Number?!?!" maxlength="25" size="11"/>
+
+
+
+<label class="text" for="nbr_enfants">Nombre d'enfents :</label>
+<input class="btn" type="text" name="nbr_enfants" size="15" maxlength="20">
+
+
+
+<label class="text" for="medecin_f">Medecin de famille :</label>
+<input class="btn" type="text" name="medecin_f" size="15" maxlength="15">
+
+
+<tr> <td>
+<label class="text" for="p_pere">Le Pere:</label>
+<label class="text" for="prenom_pere">Prenom de pere:</label>
+<input class="btn" type="text" name="prenom_pere" maxlength="50" size="18">
+
+<label class="text" for="groupage_pere">Groupe Sanguin de pere:</label>
+<input class="btn" type="text" name="groupage_pere" maxlength="40" size="16">
+</td>
+
+<td>
+<br><br>
+<label class="text" for="p_mere">La Mere:</label>
+<label class="text" for="nom_mere">Nom de mere:</label>
+<input class="btn" type="text" id="n_mere" name="nom_mere" maxlength="50" size="20">
+<label class="text" for="prenom_mere">Prenom de mere :</label>
+<input class="btn" type="text" name="prenom_mere" maxlength="50" size="18">
+<label class="text" for="groupage_mere">Groupe Sanguin de mere:</label>
+<input class="btn" type="text" name="groupage_mere" maxlength="40" size="16">
+
+</td>
+
+
+
+ 	</fieldset>
+</div>
+
+
+
+</tr>
+<br>
+<br><br>
+
+<input class="btn" type="text" name="login_p" size="15" maxlength="25" placeholder="Login"><br><br>
+
+<input class="btn" type="text" name="password_p" size="8" maxlength="4" placeholder="Passe Word"></td></tr>
+
+
+
+
+
+
+
+
+</td>
+</tr>
+</table>
+
+<br><br><input class="btn1" type="submit" value="Envoyer" name="submit">
+</form>
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

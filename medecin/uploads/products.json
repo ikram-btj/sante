@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Product A",
+    "price": 10.99
+  },
+  {
+    "id": 2,
+    "name": "Product B",
+    "price": 20.5
+  },
+  {
+    "id": 1726866047148,
+    "name": "tavle",
+    "price": "7"
+  }
+]

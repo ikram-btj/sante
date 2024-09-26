@@ -1,0 +1,135 @@
+/* Global Styles */
+
+body {
+	margin:0px;
+	}
+	
+td {
+	font:11px Arial, Helvetica, sans-serif;
+	color:#666666;
+	}
+	
+a {
+	color: #006600;
+		font: bold 12px Arial, Helvetica, sans-serif;
+
+	}
+	
+a:hover {
+	color: #5C743D;
+	}
+
+/* ID Styles */
+
+#navigation td {
+	border-bottom: 1px solid #F4FFE4;
+	}
+	
+#navigation a {
+	font: bold 12px Arial, Helvetica, sans-serif;
+	color: #D5EDB3;
+	line-height:16px;
+	letter-spacing:.1em;
+	text-decoration: none;
+	display:block;
+	padding:8px 6px 10px 20px;
+	}
+	
+#navigation a:hover {
+	background: #99CC66;
+	color:#339966;
+	}
+	
+	
+#logo 	{
+	font:24px Arial, Helvetica, sans-serif;
+	color: #000000;
+	letter-spacing:.2em;
+	line-height:30px;
+	}
+
+#tagline 	{	
+	font:11px Arial, Helvetica, sans-serif;
+	color: #993300;
+	letter-spacing:.4em;
+	line-height:18px;
+	}
+
+#monthformat {
+	border-bottom: 1px dashed #5C743D;
+	}
+		
+#dateformat {
+	font:16px Times, Helvetica, sans-serif;
+	color: #003300;
+	letter-spacing:0.1em;
+	font-weight:bold;
+	}
+	
+#dateformat a {
+	font:12px Arial, Helvetica, sans-serif;
+	color: #006600;
+	font-weight:bold;
+	letter-spacing:0.1em;
+	text-decoration:none;
+	}
+	
+#dateformat a:hover {
+	
+	color: #00FF00;
+	letter-spacing:0.1em;
+	}
+	
+/* Class Styles */
+	
+.bodyText {
+	font:11px Arial, Helvetica, sans-serif;
+	color:#000033;
+	line-height:20px;
+	margin-top:0px;
+	}
+	
+.pageName{
+	font:  bold 30px Vivaldi, Helvetica, sans-serif;
+	color: #99CC66;
+	line-height:26px;
+	letter-spacing:.12em;
+
+	}
+	
+.subHeader {
+	font:bold 12px Arial, Helvetica, sans-serif;
+	color: #993300;
+	line-height:22px;
+	letter-spacing:.2em;
+	}
+
+.quote {
+	font: 20px Arial, Helvetica, sans-serif;
+	color: #759DA1;
+	line-height:30px;
+	}
+	
+.smallText {
+	font: 10px Arial, Helvetica, sans-serif;
+	color: #000033;
+	line-height: 22px;
+	}
+	
+.navText {
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #003366;
+	line-height:16px;
+	letter-spacing:.1em;
+	text-decoration: none;
+	}  
+	
+.Stylen {
+	font-size: 13px;
+	font-style: italic;
+	font-size:13px;
+	font-weight: bold;
+	color: #000000;
+
+}	 
+	
